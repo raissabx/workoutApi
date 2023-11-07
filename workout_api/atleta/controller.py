@@ -142,3 +142,4 @@ async def query(id: UUID4, db_session: DatabaseDependency) -> None:
     
     await db_session.delete(atleta)
     await db_session.commit()
+    
